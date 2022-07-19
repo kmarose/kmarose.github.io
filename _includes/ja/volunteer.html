@@ -1,0 +1,36 @@
+{% assign volunteering = site.data.ja.data.volunteering %}
+{% if volunteering %}
+  <section class="section volunteer-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-handshake fa-stack-1x fa-inverse"></i>
+      </span>
+      ボランティア活動
+    </h2>
+
+    {% for volunteer in volunteering %}
+    <div class="item">
+
+      <div class="meta">
+
+        <h3 class="institution">{{ volunteer.institution }}</h3>
+
+        <div class="upper-row">
+          <a href="{{ volunteer.link }}" target="_blank">{{ volunteer.link }}</a>
+          <div class="time">{{ volunteer.time }}</div>
+        </div><!--//upper-row-->
+      </div><!--//meta-->
+
+      {% if volunteer.details %}
+      <div class="details">
+        {{ volunteer.details | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//section-->
+{% endif %}

@@ -1,0 +1,38 @@
+{% assign appearances = site.data.ja.data.appearances %}
+{% if appearances %}
+<section class="section appearances-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-video fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ appearances.title }}
+  </h2>
+
+  {% if appearances.intro %}
+  <div class="intro">
+    {{ appearances.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for gig in appearances.gigs %}
+  <div class="item">
+    {% if gig.link %}
+      <a href="{{ gig.link }}">{{ gig.name }}</a>
+    {% else %}
+      {{ gig.name }}
+    {% endif %}
+
+    <p>{{ gig.role }}</p>
+
+    {% if gig.image %}
+      <img class="appearance-image" src="{{ site.baseurl }}/assets/images/{{ gig.image }}" />
+    {% elsif gig.youtube %}
+      <iframe class="appearance-image" width="560" height="315" src="https://www.youtube.com/embed/{{ gig.youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

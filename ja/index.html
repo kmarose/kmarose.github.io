@@ -1,0 +1,20 @@
+---
+layout: ja/default
+---
+
+
+{% include ja/career-profile.html %}
+
+{% include ja/experiences.html %}
+
+{% include ja/projects.html %}
+
+{% unless site.data.data.sidebar.education %}
+  {% include ja/education.html %}
+{% endunless %}
+
+{% include ja/skills.html %}
+
+{% include ja/appearances.html %}
+
+{% include ja/volunteer.html %}

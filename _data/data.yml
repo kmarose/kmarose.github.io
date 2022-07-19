@@ -3,16 +3,16 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Kris Marose
-    tagline: Bilingual Software Developer Technical Analyst
+    tagline: Bilingual Software Developer & Technical Analyst
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: kmarose + cv@gmail.com
     phone: 
     timezone: Kanagawa, Japan
     citizenship: 
@@ -28,6 +28,7 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
+    instagram: krismarose
 
     languages:
       - idiom: English
@@ -46,82 +47,93 @@ sidebar:
       - item: Cooking
         link:
 
+      - item: Baseball
+        link:
+
+      - item: Photography
+        link:
+
 career-profile:
     title: About Me
     summary: |
-      Interests in computers and Japan has lead me to a software career in Japan for over a decade. 
-      I have done a little bit of everything, from systems administration and software development, 
-      to analysis, management and translation, to dabbling in image and video editing (even some modelling on the side).
-      Utilizing my bilingual ability in a technical is very fulfilling.
+      Interests in computers and Japan have lead me to a career in Japan for over a decade.  
+      While my primary training is software development, I have done a little bit of everything.  
+      I've managed large projects, but always like getting my hands dirty fixing problems.  
+      Sometimes I'm fixing an incident in prod, others editing a video, or translating for the CEO.  
+      On the side I volunteer at my church, and have even done a little bit of modelling.  
+      Ultimately I strive to combine my bilingual ability with my technical skills.
+
 education:
-    - degree: B.S. in Computer Science
-      university: University of Minnesota
+    - university: University of Minnesota
+      degree: B.S. in Computer Science
       time: 2004 - 2009
       details: |
-        Focus on Robotics and Artificial Intelligence
-        Dean’s List (3.7+ GPA) for 4 semesters
-          - Bullet point
-          - Bullet point
-    - degree: Study Abroad
-      university: Sophia University
+        Focus on Robotics and Artificial Intelligence  
+        Dean’s List (3.7+ GPA) for 4 semesters  
+        Graduated with 182 credits, 62 Japan-related
+
+    - university: Sophia University
+      degree: Study Abroad
       time: 2007 - 2008
       details: |
         One year study abroad, with focus on Japanese language
-          - Bullet point
-          - Bullet point
+
 experiences:
-    - role: Systems Administrator
-      company: Protolabs, Japan
-      time: 2008 - Present
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - company: Protolabs, Japan
+      link: www.protolabs.com
+      intro: |
+            Fast and comprehensive digital manufacturing service provider.
+            Traditional manufacturing processes incorporated with in-house developed software “digital thread” from quoting to shipping. 
+            I joined Protolabs as they expanded into the Japanese market, and so fulfilled a wide variety of roles, often in direct communication with HQ.
+      roles:
+      - role: Software Developer
+        time: 2009 - Present
+        details: |
+           Developed software solutions for local needs as well as global projects  
+           Local bilingual helpdesk support
+      - role: System Administrator
+        time: 2010 - 2015
+        details: |
+          Supported all on-site IT needs (servers, network, phones, mills, etc.) during startup
+      - role: Japan Leadership Team
+        time: 2010 - Present
+        details: |
+          IT rep on regional business management team
+      - role: Site Reliability Engineer
+        time: 2017 - Present
+        details: |
+          Troubleshoot, resolve, report, and prevent incidents
+      - role: Technical Analyst
+        time: 2020 - Present
+        details: |
+          Data analysis, consultation, and implementation
+
 projects:
-    title: Noteable Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Notable Projects
+    intro: 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Protolabs 2.0
+        link: "https://www.protolabs.com/resources/blog/welcome-to-your-new-digital-manufacturing-platform-for-part-quoting-analysis-and-ordering/"
+        tagline: |
+            Helped develop complete re-architecture of entire software infrastructure from the bottom up to create a [new eCommerce platform](https://www.protolabs.com/resources/blog/welcome-to-your-new-digital-manufacturing-platform-for-part-quoting-analysis-and-ordering/).
+            Transitioned into .net Core web services with Vue.js front end in a Docker environment pushing toward continuous deployment.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Partner Web API
+        link: ""
+        tagline: |
+            Helped design and create a web api (asp .net) to fully interact with primary business functions, 
+            e.g. request quotes, retrieve and customize them, and place orders. This also involved creating a custom
+            system to link our respective ERP data together, and grew to over half of that service's business.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Facility Network Design
+        link: ""
+        tagline: |
+            Designed and implemented server & network infrastructure for company move. This included 100+ devices over multiple networks and floors.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Marcomouse Maze Solving Robot
+        link: "https://www.youtube.com/watch?v=dsjkaBf8GmE&list=PLB7BF1C25E5DE6133"
+        tagline: |
+            Micromouse-like maze solving robotics project in C++ with player/stage in college (100+ hours)
 
 publications:
     title: Publications
@@ -141,26 +153,80 @@ publications:
         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Technical Skills &amp; Tools
+    toolsets:
+      - name: Languages
+        skills:
+          - name: c#
+          - name: c++
+          - name: c
+          - name: html
+          - name: javascript
+          - name: java
+          - name: sql
+          - name: vbscript
+      - name: Databases
+        skills:
+          - name: MS SQL Server
+          - name: Ravendb
+          - name: MS Access
+      - name: Development
+        skills:
+          - name: Agile
+          - name: Test Driven
+          - name: MVC
+          - name: Subversion
+          - name: Git
+          - name: Docker
+          - name: Azure DevOps
+      - name: IT
+        skills:
+          - name: Active Directory
+          - name: DHCP
+          - name: DNS
+      - name: Image Editing
+        skills:
+          - name: Paint .net
+          - name: Adobe Photoshop
+      - name: Video Editing
+        skills:
+          - name: DaVinci Resolve
+          - name: Adobe Premiere Pro
+      - name: Audio Editing
+        skills:
+          - name: Audacity
+          - name: Adobe Audition
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+appearances:
+    title: Appearances
+    intro: |
+      On the side I've also done several modelling gigs here and there with Nanairo Wanderlust.  
+      See my profile [here](https://nanairo7.jp/talentlist/kris-william/).
+    gigs:
+      - name: Hitachi Stick Cleaner
+        role: Foreign Observer Extra
+        link: "https://www.youtube.com/watch?v=mIpI0365bUo"
+        youtube: mIpI0365bUo
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: THE Toppa File
+        role: American Police Extra
+        image: toppa.jpg
 
-      - name: Angular
-        level: 98%
+      - name: Lenovo Chromebook
+        role: Engineer Review
+        link: "https://www.lenovo.com/jp/ja/landings/chromebook_review/article27/"
+        image: lenovo.png
 
-      - name: HTML5 & CSS
-        level: 95%
+volunteering:
+    - institution: St. Paul International Lutheran Church
+      time: 2007, 2010 - present
+      link: https://www.spilchurchtokyo.org/
+      details: Member on the council, help pick hymns, lead services, and translate
+    - institution: Lifehouse International Church
+      time: 2015 - present
+      link: https://mylifehouse.com/tokyo/
+      details: Lead a Welcome Team which setup chairs, usher attendees, and helped during services
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -1,0 +1,218 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: クリス マロス
+    tagline: バイリンガル開発者
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: kmarose + cv@gmail.com
+    phone: 
+    timezone: 神奈川県
+    citizenship: 
+    website: kmarose.github.io #do not add http://
+    linkedin: kmarose
+    xing: 
+    github: 
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+    instagram: krismarose
+
+    languages:
+      - idiom: 英語
+        level: ネイティブ
+
+      - idiom: 日本語
+        level: ほぼネイティブ
+
+    interests:
+      - item: スノーボード
+      - item: トランペット
+      - item: 料理
+      - item: 野球
+      - item: フォトグラフィー
+        link: "https://www.instagram.com/krismarose/"
+
+career-profile:
+    title: 自己紹介
+    summary: |
+      パソコンと日本の興味で、10年間も日本でキャリアーを送ってきました。 
+      本業はソフト開発ですが、数えきれない経験をしてきました。
+      大きなプロジェクトを管理したこともあるが、実践のも好きです。
+      あるときは本番環境の問題を解決し、別の時はビデオ編集、または社長の通訳もします。
+      時間があるときは教会でボランティア活動をしていて、プチ副業として芸能活動もしています。
+      何をしても、バイリンガル能力と技術のスキルを結び付けるのが目的です。
+education:
+    - degree: B.S. in Computer Science
+      university: ミネソタ大学
+      time: 2004年 - 2009年
+      details: |
+        ロボット工学と人工知能に集中  
+        4学期間学部長表彰者リスト (3.7+ GPA)
+
+    - degree: 留学
+      university: 上智大学
+      time: 2007 - 2008
+      details: |
+        特に日本語に集中した一年間の交換留学
+
+experiences:
+    - company: プロトラブズ合同会社
+      intro: |
+            Fast and comprehensive digital manufacturing service provider.
+            Traditional manufacturing processes incorporated with in-house developed software “digital thread” from quoting to shipping. 
+            I joined Protolabs as they expanded into the Japanese market, and so had several roles over my employment, with anything from helpdesk to administration, 
+      roles:
+      - role: ソフト開発者
+        time: 2009年 - 現在
+        details: |
+           日本ローカルとグローバルにもソフトのソリューションを開発  
+           日本語と英語のバイリンガルヘルプデスク
+      - role: システム管理者
+        time: 2010 - 2015
+        details: |
+          立ち上げのころからオンサイトのITニーズをサポート（サーバー、ネットワーク、電話、フライス機会、等）
+      - role: 日本幹部チーム
+        time: 2010年 - 現在
+        details: |
+          IT代表として日本の幹部チームの一員
+      - role: サイト信頼性エンジニア（SRE）
+        time: 2017年 - 現在
+        details: |
+          システム問題の調査、解決、報告、と再発防止
+      - role: テクニカル アナリスト
+        time: 2020年 - 現在
+        details: |
+          データ分析のコンサルと、この元に実行
+projects:
+    title: 注目プロジェクト
+    intro: >
+      Aside from 
+    assignments:
+      - title: プロトラブズ2.0
+        link: ""
+        tagline: |
+            一からシステムの完全リアーキテクトの開発に協力  
+            主にウェブサービスを.netコア、フロントエンドをVue.jsで、Dockerで開発し、継続的デプロイに向かいました。
+
+      - title: パートナーWeb API
+        link: ""
+        tagline: |
+            ビジネスとやり取りができるWeb APIを開発し、サポートしました。
+
+      - title: 設備ネットワーク設計
+        link: ""
+        tagline: |
+            引っ越した際にサーバーとネットワークのインフラを設計し、実行した
+
+      - title: 「マクロマウス」迷路解きロボット
+        link: "https://www.youtube.com/watch?v=dsjkaBf8GmE&list=PLB7BF1C25E5DE6133"
+        tagline: |
+            大学で「マイクロマウス」のような迷路を解くロボットを player/stage で c++ で開発
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+skills:
+    title: スキル
+    toolsets:
+      - name: プログラミング言語
+        skills:
+          - name: c#
+          - name: c++
+          - name: c
+          - name: html
+          - name: javascript
+          - name: java
+          - name: sql
+          - name: vbscript
+      - name: データベース
+        skills:
+          - name: MSSQL
+          - name: ravendb
+          - name: MS Access
+      - name: 開発関係
+        skills:
+          - name: Agile
+          - name: Test Driven
+          - name: MVC
+          - name: Subversion
+          - name: Git
+          - name: Docker
+          - name: Azure DevOps
+      - name: IT
+        skills:
+          - name: Active Directory
+          - name: DHCP
+          - name: DNS
+      - name: 画像編集
+        skills:
+          - name: Paint .net
+          - name: Adobe Photoshop
+      - name: 映像編集
+        skills:
+          - name: DaVinci Resolve
+          - name: Adobe Premiere Pro
+      - name: オーディオ編集
+        skills:
+          - name: Audacity
+          - name: Adobe Audition
+
+appearances:
+    title: 出演歴
+    intro: |
+      時間があるときは副業としてなないろWanderlustで芸能活動をしています。  
+      プロフィールは[こちら](https://nanairo7.jp/talentlist/kris-william/).
+    gigs:
+      - name: 日立スティッククリーナー
+        role: 海外からの観察者エキストラ
+        link: "https://www.youtube.com/watch?v=mIpI0365bUo"
+        youtube: mIpI0365bUo
+
+      - name: THE突破ファイル
+        role: アメリカンポリスのエキストラ
+        image: toppa.jpg
+
+      - name: レノボChromebook
+        role: エンジニアの評価
+        link: "https://www.lenovo.com/jp/ja/landings/chromebook_review/article27/"
+        image: lenovo.png
+
+volunteering:
+    - institution: 聖パウロ国際ルーテル教会
+      time: 2007年, 2010年 - 現在
+      link: https://www.spilchurchtokyo.org/
+      details: 教会議会の一員で、礼拝を準備したり行ったりして、通訳もします。
+    - institution: ライフハウス国際教会
+      time: 2015年 - 現在
+      link: https://mylifehouse.com/tokyo/
+      details: ウェルカムチームのリーダーで、礼拝の準備をしたり、誘導係などで手伝います。
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
