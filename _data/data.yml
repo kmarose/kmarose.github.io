@@ -8,7 +8,9 @@ sidebar:
 
     # Profile information
     name: Kris Marose
-    tagline: Bilingual Software Developer & Technical Analyst
+    tagline: |
+        Bilingual Software Developer  
+        Technical Analyst
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -90,15 +92,15 @@ experiences:
         time: 2009 - Present
         details: |
            Developed software solutions for local needs as well as global projects  
-           Local bilingual helpdesk support
+           Included local bilingual helpdesk support
       - role: System Administrator
         time: 2010 - 2015
         details: |
-          Supported all on-site IT needs (servers, network, phones, mills, etc.) during startup
+          Supported all early on-site IT needs (servers, network, phones, mills, etc.)
       - role: Japan Leadership Team
         time: 2010 - Present
         details: |
-          IT rep on regional business management team
+          IT & software rep on regional business management team
       - role: Site Reliability Engineer
         time: 2017 - Present
         details: |
@@ -115,25 +117,25 @@ projects:
       - title: Protolabs 2.0
         link: "https://www.protolabs.com/resources/blog/welcome-to-your-new-digital-manufacturing-platform-for-part-quoting-analysis-and-ordering/"
         tagline: |
-            Helped develop complete re-architecture of entire software infrastructure from the bottom up to create a [new eCommerce platform](https://www.protolabs.com/resources/blog/welcome-to-your-new-digital-manufacturing-platform-for-part-quoting-analysis-and-ordering/).
-            Transitioned into .net Core web services with Vue.js front end in a Docker environment pushing toward continuous deployment.
+            Helped develop complete re-architecture of entire software infrastructure from the bottom up to create a 
+            [new eCommerce platform](https://www.protolabs.com/resources/blog/welcome-to-your-new-digital-manufacturing-platform-for-part-quoting-analysis-and-ordering/){:target="\_blank"}.
+            Transitioned into .net Core web services with a Vue.js front end in a Docker environment pushing toward continuous deployment.
 
       - title: Partner Web API
-        link: ""
         tagline: |
             Helped design and create a web api (asp .net) to fully interact with primary business functions, 
             e.g. request quotes, retrieve and customize them, and place orders. This also involved creating a custom
             system to link our respective ERP data together, and grew to over half of that service's business.
 
       - title: Facility Network Design
-        link: ""
         tagline: |
             Designed and implemented server & network infrastructure for company move. This included 100+ devices over multiple networks and floors.
 
       - title: Marcomouse Maze Solving Robot
         link: "https://www.youtube.com/watch?v=dsjkaBf8GmE&list=PLB7BF1C25E5DE6133"
         tagline: |
-            Micromouse-like maze solving robotics project in C++ with player/stage in college (100+ hours)
+            Micromouse-like maze solving robotics project in C++ with player/stage in college (100+ hours). 
+            See it in action [here](https://www.youtube.com/watch?v=dsjkaBf8GmE&list=PLB7BF1C25E5DE6133){:target="\_blank"}.
 
 publications:
     title: Publications
@@ -155,20 +157,20 @@ publications:
 skills:
     title: Technical Skills &amp; Tools
     toolsets:
-      - name: Languages
+      - name: Programming
         skills:
-          - name: c#
-          - name: c++
-          - name: c
-          - name: html
-          - name: javascript
-          - name: java
-          - name: sql
-          - name: vbscript
+          - name: C#
+          - name: C++
+          - name: C
+          - name: HTML
+          - name: SQL
+          - name: VBScript
+          - name: Vue.js
+          - name: Javascript
       - name: Databases
         skills:
           - name: MS SQL Server
-          - name: Ravendb
+          - name: RavenDB
           - name: MS Access
       - name: Development
         skills:
@@ -186,7 +188,7 @@ skills:
           - name: DNS
       - name: Image Editing
         skills:
-          - name: Paint .net
+          - name: Paint.NET
           - name: Adobe Photoshop
       - name: Video Editing
         skills:
@@ -201,7 +203,7 @@ appearances:
     title: Appearances
     intro: |
       On the side I've also done several modelling gigs here and there with Nanairo Wanderlust.  
-      See my profile [here](https://nanairo7.jp/talentlist/kris-william/).
+      Here are a few of the ads I've been in, with more on my [profile page](https://nanairo7.jp/talentlist/kris-william/){:target="\_blank"}.
     gigs:
       - name: Hitachi Stick Cleaner
         role: Foreign Observer Extra
@@ -219,13 +221,13 @@ appearances:
 
 volunteering:
     - institution: St. Paul International Lutheran Church
-      time: 2007, 2010 - present
+      time: 2007, 2010 - Present
       link: https://www.spilchurchtokyo.org/
-      details: Member on the council, help pick hymns, lead services, and translate
+      details: Member on the council, helping pick music, organize and lead services, as well translate
     - institution: Lifehouse International Church
-      time: 2015 - present
+      time: 2015 - Present
       link: https://mylifehouse.com/tokyo/
-      details: Lead a Welcome Team which setup chairs, usher attendees, and helped during services
+      details: Lead a Welcome Team, setting up chairs, ushering, and welcoming visitors
 
 
 footer: >

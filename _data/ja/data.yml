@@ -8,7 +8,9 @@ sidebar:
 
     # Profile information
     name: クリス マロス
-    tagline: バイリンガル開発者
+    tagline: |
+        バイリンガル開発者
+        テクニカル アナリスト
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -102,18 +104,16 @@ projects:
       Aside from 
     assignments:
       - title: プロトラブズ2.0
-        link: ""
+        link: "https://www.protolabs.com/resources/blog/welcome-to-your-new-digital-manufacturing-platform-for-part-quoting-analysis-and-ordering/"
         tagline: |
             一からシステムの完全リアーキテクトの開発に協力  
             主にウェブサービスを.netコア、フロントエンドをVue.jsで、Dockerで開発し、継続的デプロイに向かいました。
 
       - title: パートナーWeb API
-        link: ""
         tagline: |
             ビジネスとやり取りができるWeb APIを開発し、サポートしました。
 
       - title: 設備ネットワーク設計
-        link: ""
         tagline: |
             引っ越した際にサーバーとネットワークのインフラを設計し、実行した
 
@@ -144,18 +144,18 @@ skills:
     toolsets:
       - name: プログラミング言語
         skills:
-          - name: c#
-          - name: c++
-          - name: c
-          - name: html
-          - name: javascript
-          - name: java
-          - name: sql
-          - name: vbscript
+          - name: C#
+          - name: C++
+          - name: C
+          - name: HTML
+          - name: SQL
+          - name: VBScript
+          - name: Vue.js
+          - name: Javascript
       - name: データベース
         skills:
           - name: MSSQL
-          - name: ravendb
+          - name: RavenDB
           - name: MS Access
       - name: 開発関係
         skills:
@@ -166,14 +166,14 @@ skills:
           - name: Git
           - name: Docker
           - name: Azure DevOps
-      - name: IT
+      - name: IT関係
         skills:
           - name: Active Directory
           - name: DHCP
           - name: DNS
       - name: 画像編集
         skills:
-          - name: Paint .net
+          - name: Paint.NET
           - name: Adobe Photoshop
       - name: 映像編集
         skills:
@@ -188,7 +188,7 @@ appearances:
     title: 出演歴
     intro: |
       時間があるときは副業としてなないろWanderlustで芸能活動をしています。  
-      プロフィールは[こちら](https://nanairo7.jp/talentlist/kris-william/).
+      プロフィールは[こちら](https://nanairo7.jp/talentlist/kris-william/){:target="\_blank"}.
     gigs:
       - name: 日立スティッククリーナー
         role: 海外からの観察者エキストラ
