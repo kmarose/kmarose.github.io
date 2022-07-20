@@ -49,9 +49,9 @@ career-profile:
     title: 自己紹介
     summary: |
       パソコンと日本の興味で、10年間も日本でキャリアーを送ってきました。 
-      本業はソフト開発ですが、数えきれない経験をしてきました。
-      大きなプロジェクトを管理したこともあるが、実践のも好きです。
-      あるときは本番環境の問題を解決し、別の時はビデオ編集、または社長の通訳もします。
+      本業はソフト開発ですが、様々な分野で経験をしてきました。
+      大きなプロジェクト管理の経験もありながら、実践も好きです。
+      あるときは本番環境の問題を解決し、その後はビデオ編集、または社長の通訳もします。
       時間があるときは教会でボランティア活動をしていて、プチ副業として芸能活動もしています。
       何をしても、バイリンガル能力と技術のスキルを結び付けるのが目的です。
 education:
@@ -71,9 +71,9 @@ education:
 experiences:
     - company: プロトラブズ合同会社
       intro: |
-            Fast and comprehensive digital manufacturing service provider.
-            Traditional manufacturing processes incorporated with in-house developed software “digital thread” from quoting to shipping. 
-            I joined Protolabs as they expanded into the Japanese market, and so had several roles over my employment, with anything from helpdesk to administration, 
+            世界最速のデジタル製造サービス。  
+            昔ながらの製造プロセスを社内開発のソフトと融合することで、この「デジタル」糸は見積りから出荷まで繋いでくれます。
+            日本市場に出た頃から入社した影響で、ヘルプデスクから管理まで、様々な役割を果たしました。
       roles:
       - role: ソフト開発者
         time: 2009年 - 現在

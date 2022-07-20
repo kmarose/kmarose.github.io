@@ -18,11 +18,13 @@
 
   {% for gig in appearances.gigs %}
   <div class="item">
+    <h3 class="gig">
     {% if gig.link %}
       <a href="{{ gig.link }}">{{ gig.name }}</a>
     {% else %}
       {{ gig.name }}
     {% endif %}
+    </h3>
 
     <p>{{ gig.role }}</p>
 
