@@ -58,12 +58,10 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      Interests in computers and Japan have lead me to a career in Japan for over a decade.  
-      While my primary training is software development, I have done a little bit of everything.  
-      I've managed large projects, but always like getting my hands dirty fixing problems.  
-      Sometimes I'm fixing an incident in prod, others editing a video, or translating for the CEO.  
-      On the side I volunteer at my church, and have even done a little bit of modelling.  
-      Ultimately I strive to combine my bilingual ability with my technical skills.
+      Diligent software developer, analyst, and administrator with a high dedication to quality and focus on fixing root issues.
+      Over 10 years experience supporting a startup technically, while serving on the management team growing to 100 employees.
+      Helped design and develop a web API for a partner that grew to more than half of that service's business.
+      Passionate about combining my language and technical abilities on future projects that bring true value to both fellow employees and customers.
 
 education:
     - university: University of Minnesota
@@ -84,9 +82,10 @@ experiences:
     - company: Protolabs, Japan
       link: www.protolabs.com
       intro: |
-            Fast and comprehensive digital manufacturing service provider.
-            Traditional manufacturing processes incorporated with in-house developed software “digital thread” from quoting to shipping. 
-            I joined Protolabs as they expanded into the Japanese market, and so fulfilled a wide variety of roles, often in direct communication with HQ.
+            Fast and comprehensive digital manufacturing service provider.  
+            In-house developed software integrated with traditional manufacturing processes, 
+            creating a “digital thread” from quoting to shipping. I joined Protolabs as 
+            an expansion startup in the Japanese market, and so fulfilled a very wide variety of roles, even translator for the CEO.
       roles:
       - role: Software Developer
         time: 2009 - Present
@@ -209,11 +208,9 @@ appearances:
         role: Foreign Observer Extra
         link: "https://www.youtube.com/watch?v=mIpI0365bUo"
         youtube: mIpI0365bUo
-
       - name: THE Toppa File
         role: American Police Extra
         image: toppa.jpg
-
       - name: Lenovo Chromebook
         role: Engineer Review
         link: "https://www.lenovo.com/jp/ja/landings/chromebook_review/article27/"
@@ -223,11 +220,11 @@ volunteering:
     - institution: St. Paul International Lutheran Church
       time: 2007, 2010 - Present
       link: https://www.spilchurchtokyo.org/
-      details: Member on the council, helping pick music, organize and lead services, as well translate
+      details: Member on the council, helping organize, translate, and lead services
     - institution: Lifehouse International Church
       time: 2015 - Present
       link: https://mylifehouse.com/tokyo/
-      details: Lead a Welcome Team, setting up chairs, ushering, and welcoming visitors
+      details: Lead and managed a Welcome Team primarily in Japanese
 
 
 footer: >
