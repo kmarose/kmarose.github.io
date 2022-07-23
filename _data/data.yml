@@ -58,9 +58,9 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      Diligent software developer, analyst, and administrator with a high dedication to quality and focus on fixing root issues.
-      Over 10 years experience supporting a startup technically, while serving on the management team growing to 100 employees.
-      Helped design and develop a web API for a partner that grew to more than half of that service's business.
+      Diligent software developer, analyst, and administrator with a high dedication to quality and focus on fixing root issues. 
+      Over 10 years experience supporting a startup technically, while serving on the management team growing to 100 employees. 
+      Helped design and develop a web API for a partner that grew to more than half of that service's business. 
       Passionate about combining my language and technical abilities on future projects that bring true value to both fellow employees and customers.
 
 education:
@@ -119,22 +119,19 @@ projects:
             Helped develop complete re-architecture of entire software infrastructure from the bottom up to create a 
             [new eCommerce platform](https://www.protolabs.com/resources/blog/welcome-to-your-new-digital-manufacturing-platform-for-part-quoting-analysis-and-ordering/){:target="\_blank"}.
             Transitioned into .net Core web services with a Vue.js front end in a Docker environment pushing toward continuous deployment.
-
       - title: Partner Web API
         tagline: |
             Helped design and create a web api (asp .net) to fully interact with primary business functions, 
             e.g. request quotes, retrieve and customize them, and place orders. This also involved creating a custom
             system to link our respective ERP data together, and grew to over half of that service's business.
-
       - title: Facility Network Design
         tagline: |
             Designed and implemented server & network infrastructure for company move. This included 100+ devices over multiple networks and floors.
-
       - title: Marcomouse Maze Solving Robot
         link: "https://www.youtube.com/watch?v=dsjkaBf8GmE&list=PLB7BF1C25E5DE6133"
         tagline: |
             Micromouse-like maze solving robotics project in C++ with player/stage in college (100+ hours). 
-            See it in action [here](https://www.youtube.com/watch?v=dsjkaBf8GmE&list=PLB7BF1C25E5DE6133){:target="\_blank"}.
+            See it in action **[here](https://www.youtube.com/watch?v=dsjkaBf8GmE&list=PLB7BF1C25E5DE6133){:target="\_blank"}**.
 
 publications:
     title: Publications
@@ -164,8 +161,8 @@ skills:
           - name: HTML
           - name: SQL
           - name: VBScript
-          - name: Vue.js
           - name: Javascript
+          - name: Vue.js
       - name: Databases
         skills:
           - name: MS SQL Server

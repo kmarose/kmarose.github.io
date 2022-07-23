@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: クリス マロス
     tagline: |
-        バイリンガル開発者  
+        バイリンガル ソフト開発者  
         テクニカル アナリスト
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -50,12 +50,11 @@ sidebar:
 career-profile:
     title: 自己紹介
     summary: |
-      パソコンと日本の興味で、10年間も日本でキャリアーを送ってきました。 
-      本業はソフト開発ですが、様々な分野で経験をしてきました。
-      大きなプロジェクト管理の経験もありながら、実践も好きです。
-      あるときは本番環境の問題を解決し、その後はビデオ編集、または社長の通訳もします。
-      時間があるときは教会でボランティア活動をしていて、プチ副業として芸能活動もしています。
-      何をしても、バイリンガル能力と技術のスキルを結び付けるのが目的です。
+      勤勉で、品質と根本問題解決を重視にしているソフト開発者、アナリスト、マネージャーです。 
+      約10年間、スタートアップから技術的なサポートをしながら、マネジメントチームに所属し、100人の会社に成長しました。
+      また、パートナーのウェブAPIの設計と開発をし、そのサービスラインの半分以上のビジネスに成長した実績もあります。
+      将来的には、技術と言語のスキルを共に活用し、お客様と同僚同士に本当のバリューをもたらすプロジェクトに熱心しています。
+
 education:
     - degree: B.S. in Computer Science
       university: ミネソタ大学
@@ -63,10 +62,9 @@ education:
       details: |
         ロボット工学と人工知能に集中  
         4学期間学部長表彰者リスト (3.7+ GPA)
-
     - degree: 留学
       university: 上智大学
-      time: 2007 - 2008
+      time: 2007年 - 2008年
       details: |
         特に日本語に集中した一年間の交換留学
 
@@ -74,22 +72,23 @@ experiences:
     - company: プロトラブズ合同会社
       intro: |
             世界最速のデジタル製造サービス。  
-            昔ながらの製造プロセスを社内開発のソフトと融合することで、この「デジタル」糸は見積りから出荷まで繋いでくれます。
-            日本市場に出た頃から入社した影響で、ヘルプデスクから管理まで、様々な役割を果たしました。
+            従来の製造プロセスを社内で開発したソフトと融合することで、「デジタル糸」が見積りから出荷まで繋いでくれます。
+            日本市場に出た頃から入社した影響で、社長の通訳も含め、大変様々な役割を果たしました。
       roles:
       - role: ソフト開発者
         time: 2009年 - 現在
         details: |
-           日本ローカルとグローバルにもソフトのソリューションを開発  
-           日本語と英語のバイリンガルヘルプデスク
+           日本ローカルとグローバルなソフトウェアのソリューションを開発  
+           日本語と英語のバイリンガルヘルプデスクサポート
       - role: システム管理者
-        time: 2010 - 2015
+        time: 2010年 - 2015年
         details: |
-          立ち上げのころからオンサイトのITニーズをサポート（サーバー、ネットワーク、電話、フライス機会、等）
-      - role: 日本幹部チーム
+          立ち上げのころからオンサイトのITニーズをサポート  
+          （サーバー、ネットワーク、電話、加工機械、等）
+      - role: 日本マネジメントチーム
         time: 2010年 - 現在
         details: |
-          IT代表として日本の幹部チームの一員
+          ITとソフト開発の代表として日本のマネジメントチームの一員
       - role: サイト信頼性エンジニア（SRE）
         time: 2017年 - 現在
         details: |
@@ -98,29 +97,28 @@ experiences:
         time: 2020年 - 現在
         details: |
           データ分析のコンサルと、この元に実行
+
 projects:
     title: 注目プロジェクト
-    intro: >
-      Aside from 
+    intro:  
     assignments:
       - title: プロトラブズ2.0
         link: "https://www.protolabs.com/resources/blog/welcome-to-your-new-digital-manufacturing-platform-for-part-quoting-analysis-and-ordering/"
         tagline: |
-            一からシステムの完全リアーキテクトの開発に協力  
-            主にウェブサービスを.netコア、フロントエンドをVue.jsで、Dockerで開発し、継続的デプロイに向かいました。
-
+            一からシステムの完全リアーキテクトの開発に関与した。
+            主にマイクロサービスを.netコア、フロントエンドをVue.jsで、Dockerで開発し、継続的デプロイに向かいました。
       - title: パートナーWeb API
         tagline: |
-            ビジネスとやり取りができるWeb APIを開発し、サポートしました。
-
+            パートナーがビジネスとやり取りができるWeb APIを開発し、サポートしました。お互いのERPを結ぶカスタムシステムも開発し、
+            最終的にはそのサービスラインの半分以上の売上まで上りました。
       - title: 設備ネットワーク設計
         tagline: |
-            引っ越した際にサーバーとネットワークのインフラを設計し、実行した
-
+            引っ越した際にサーバーとネットワークのインフラを設計し、実行した。当時は複数の階で100台以上のデバイスでした。
       - title: 「マクロマウス」迷路解きロボット
         link: "https://www.youtube.com/watch?v=dsjkaBf8GmE&list=PLB7BF1C25E5DE6133"
         tagline: |
-            大学で「マイクロマウス」のような迷路を解くロボットを player/stage で c++ で開発
+            大学で100時間以上をかけて、「マイクロマウス」のような迷路を解くロボットを player/stage で C++ で開発。
+            実際の映像は**[こちら](https://www.youtube.com/watch?v=dsjkaBf8GmE&list=PLB7BF1C25E5DE6133){:target="\_blank"}**でご覧になれます。
 
 publications:
     title: Publications
@@ -142,7 +140,7 @@ publications:
 skills:
     title: スキル
     toolsets:
-      - name: プログラミング言語
+      - name: プログラミング
         skills:
           - name: C#
           - name: C++
@@ -150,8 +148,8 @@ skills:
           - name: HTML
           - name: SQL
           - name: VBScript
-          - name: Vue.js
           - name: Javascript
+          - name: Vue.js
       - name: データベース
         skills:
           - name: MSSQL
@@ -188,7 +186,7 @@ appearances:
     title: 出演歴
     intro: |
       時間があるときは副業としてなないろWanderlustで芸能活動をしています。  
-      プロフィールは[こちら](https://nanairo7.jp/talentlist/kris-william/){:target="\_blank"}.
+      その出演の一覧はこちらになりますが、[プロフィール](https://nanairo7.jp/talentlist/kris-william/){:target="\_blank"}に他にもあります.
     gigs:
       - name: 日立スティッククリーナー
         role: 海外からの観察者エキストラ
@@ -208,11 +206,11 @@ volunteering:
     - institution: 聖パウロ国際ルーテル教会
       time: 2007年, 2010年 - 現在
       link: https://www.spilchurchtokyo.org/
-      details: 教会議会の一員で、礼拝を準備したり行ったりして、通訳もします。
+      details: 教会議会の一員で、礼拝の準備や通訳
     - institution: ライフハウス国際教会
       time: 2015年 - 現在
       link: https://mylifehouse.com/tokyo/
-      details: ウェルカムチームのリーダーで、礼拝の準備をしたり、誘導係などで手伝います。
+      details: 主に日本語でウェルカムチームのリーダー
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
