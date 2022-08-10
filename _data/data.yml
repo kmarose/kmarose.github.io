@@ -58,7 +58,7 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      Diligent software developer, analyst, and administrator with a high dedication to quality and focus on fixing root issues. 
+      Diligent, bilingual software developer, analyst, and administrator with a high dedication to quality and focus on fixing root issues. 
       Over 10 years experience supporting a startup technically, while serving on the management team growing to 100 employees. 
       Helped design and develop a web API for a partner that grew to more than half of that service's business. 
       Passionate about combining my language and technical abilities on future projects that bring true value to both fellow employees and customers.
@@ -108,6 +108,10 @@ experiences:
         time: 2020 - Present
         details: |
           Data analysis, consultation, and implementation
+      - role: IT & Software Manager
+        time: 2022 - Present
+        details: |
+          Managing decomissioning and liquidation of IT and software systems
 
 projects:
     title: Notable Projects
