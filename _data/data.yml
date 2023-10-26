@@ -80,6 +80,17 @@ education:
         One year study abroad, with focus on Japanese language
 
 experiences:
+    - company: DT Dynamics (Misumi)
+      link: dt-dynamics.com
+      intro: |
+            Internalized development for Misumi’s online digital manufacturing component procurement service, meviy. 
+            Joined to help grow a new organization at the Tokyo HQ, utilizing my technical knowledge and bilingual ability with the global initiatives
+      roles:
+      - role: Global DevOps Director/IT Administrator
+        time: JAN 2023 - Present
+        details: |
+            Helped manage offshore foreign development team
+            Created policies and managed IT administration for new company
     - company: Protolabs, Japan
       link: www.protolabs.com
       intro: |
@@ -89,7 +100,7 @@ experiences:
             an expansion startup in the Japanese market, and so fulfilled a very wide variety of roles, even translator for the CEO.
       roles:
       - role: Software Developer
-        time: 2009 - Present
+        time: 2009 - 2023
         details: |
            Developed software solutions for local needs as well as global projects  
            Included local bilingual helpdesk support
@@ -98,19 +109,19 @@ experiences:
         details: |
           Supported all early on-site IT needs (servers, network, phones, mills, etc.)
       - role: Japan Leadership Team
-        time: 2010 - Present
+        time: 2010 - 2023
         details: |
           IT & software rep on regional business management team
       - role: Site Reliability Engineer
-        time: 2017 - Present
+        time: 2017 - 2023
         details: |
           Troubleshoot, resolve, report, and prevent incidents
       - role: Technical Analyst
-        time: 2020 - Present
+        time: 2020 - 2023
         details: |
           Data analysis, consultation, and implementation
       - role: IT & Software Manager
-        time: 2022 - Present
+        time: 2022 - 2023
         details: |
           Managing decommissioning and liquidation of IT and software systems
 
