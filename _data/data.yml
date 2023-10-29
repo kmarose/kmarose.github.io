@@ -100,7 +100,7 @@ experiences:
             an expansion startup in the Japanese market, and so fulfilled a very wide variety of roles, even translator for the CEO.
       roles:
       - role: Software Developer
-        time: 2009 - 2023
+        time: 2009 - 2022
         details: |
            Developed software solutions for local needs as well as global projects  
            Included local bilingual helpdesk support
@@ -109,19 +109,19 @@ experiences:
         details: |
           Supported all early on-site IT needs (servers, network, phones, mills, etc.)
       - role: Japan Leadership Team
-        time: 2010 - 2023
+        time: 2010 - 2022
         details: |
           IT & software rep on regional business management team
       - role: Site Reliability Engineer
-        time: 2017 - 2023
+        time: 2017 - 2022
         details: |
           Troubleshoot, resolve, report, and prevent incidents
       - role: Technical Analyst
-        time: 2020 - 2023
+        time: 2020 - 2022
         details: |
           Data analysis, consultation, and implementation
       - role: IT & Software Manager
-        time: 2022 - 2023
+        time: 2022 - 2022
         details: |
           Managing decommissioning and liquidation of IT and software systems
 
